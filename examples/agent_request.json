@@ -1,0 +1,9 @@
+{
+  "message": "Explain the relevant demo policy wording and calculate the expected loss cost for frequency 0.08 and mean severity 3500.",
+  "session_id": "demo-session",
+  "jurisdiction": "DE-demo",
+  "product_line": "motor",
+  "metadata": {
+    "purpose": "research-demo"
+  }
+}
