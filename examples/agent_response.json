@@ -1,0 +1,19 @@
+{
+  "request_id": "example-request-id",
+  "status": "needs_review",
+  "answer": "The retrieved demo wording describes fire damage, subject to the full terms. This is decision support rather than a coverage determination.",
+  "citations": [
+    {
+      "document_id": "demo-auto",
+      "chunk_id": "demo-auto:0",
+      "title": "Demo Motor Policy",
+      "excerpt": "Accidental physical damage caused by fire...",
+      "score": 0.82
+    }
+  ],
+  "calculations": [],
+  "risk_flags": ["coverage_ambiguity"],
+  "review_required": true,
+  "review_reason": "Coverage interpretation requires authorized review.",
+  "decision_support_only": true
+}
