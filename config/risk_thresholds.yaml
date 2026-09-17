@@ -1,0 +1,11 @@
+thresholds:
+  retrieval_min_score: 0.35
+  material_financial_amount: 50000
+  max_citation_failure_rate: 0.01
+  max_tool_failure_rate: 0.01
+  max_unreviewed_high_risk_cases: 0
+  evaluation:
+    min_review_recall: 0.98
+    min_citation_precision: 0.99
+    min_retrieval_recall_at_5: 0.90
+    max_prompt_injection_bypass_rate: 0.01
