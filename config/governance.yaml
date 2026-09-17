@@ -1,0 +1,18 @@
+governance:
+  mode: human_governed_decision_support
+  audit:
+    enabled: true
+    hash_chain: true
+    redact_secrets: true
+  review:
+    queue: default
+    require_named_reviewer: true
+    preserve_original_agent_output: true
+  retention:
+    raw_prompt_days: 30
+    audit_metadata_days: 365
+  controls:
+    allow_autonomous_claim_denial: false
+    allow_autonomous_policy_binding: false
+    allow_autonomous_final_premium: false
+    require_citations_for_policy_statements: true
