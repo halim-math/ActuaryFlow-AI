@@ -1,0 +1,16 @@
+agent:
+  model: gpt-5.6
+  max_memory_messages: 12
+  retrieval_top_k: 5
+  retrieval_min_score: 0.35
+  max_input_chars: 12000
+  decision_support_only: true
+  require_human_review_for:
+    - coverage_ambiguity
+    - low_retrieval_confidence
+    - material_financial_impact
+    - missing_evidence
+    - sensitive_attribute_detected
+    - tool_failure
+  tool_timeout_seconds: 15
+  max_tool_calls_per_request: 6
