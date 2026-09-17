@@ -1,0 +1,14 @@
+{
+  "case_id": "review-case-id",
+  "request_id": "agent-request-id",
+  "status": "open",
+  "reason": "policy_conflict",
+  "evidence": [],
+  "calculations": [],
+  "risk_flags": ["policy_conflict"],
+  "required_role": "claims_authority",
+  "financial_amount": 0,
+  "reviewer": null,
+  "decision": null,
+  "notes": null
+}

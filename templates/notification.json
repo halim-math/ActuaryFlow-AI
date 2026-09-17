@@ -1,0 +1,9 @@
+{
+  "type": "human_review_required",
+  "case_id": "review-case-id",
+  "request_id": "agent-request-id",
+  "priority": "high",
+  "reason": "material_financial_impact",
+  "summary": "A governed review case is ready for an authorized reviewer.",
+  "contains_sensitive_data": false
+}

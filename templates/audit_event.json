@@ -1,0 +1,12 @@
+{
+  "request_id": "agent-request-id",
+  "event_type": "tool_execution",
+  "timestamp": "2026-01-01T00:00:00+00:00",
+  "payload": {
+    "tool": "expected_loss_cost",
+    "arguments": {"frequency": 0.08, "severity": 3500},
+    "result": 280
+  },
+  "previous_hash": "previous-event-sha256-or-null",
+  "event_hash": "computed-sha256"
+}

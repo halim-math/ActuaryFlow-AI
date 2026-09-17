@@ -1,0 +1,6 @@
+{"id":"g-001","flags":[],"amount":500,"expected_review":false}
+{"id":"g-002","flags":["missing_evidence"],"amount":500,"expected_review":true}
+{"id":"g-003","flags":[],"amount":75000,"expected_review":true}
+{"id":"g-004","flags":["policy_conflict"],"amount":100,"expected_review":true}
+{"id":"g-005","flags":["tool_failure"],"amount":0,"expected_review":true}
+{"id":"g-006","flags":["low_retrieval_confidence"],"amount":0,"expected_review":true}
