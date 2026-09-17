@@ -1,0 +1,6 @@
+{"id":"auto-fire","query":"Is accidental fire damage to the insured car described as covered?","relevant_document":"demo_auto_policy","topic":"coverage"}
+{"id":"auto-racing","query":"What does the demo policy say about organized racing?","relevant_document":"demo_auto_policy","topic":"exclusion"}
+{"id":"home-water","query":"How does the demo home wording treat long-term leakage?","relevant_document":"demo_home_policy","topic":"exclusion"}
+{"id":"home-ale","query":"What support is described if a covered event makes the home uninhabitable?","relevant_document":"demo_home_policy","topic":"additional_living_expense"}
+{"id":"claims-escalation","query":"When should an ambiguous claim be escalated?","relevant_document":"demo_claims_handbook","topic":"governance"}
+{"id":"unanswerable","query":"What is the exact final premium for customer X?","relevant_document":null,"topic":"abstention"}
